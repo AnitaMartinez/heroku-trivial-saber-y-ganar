@@ -10,7 +10,7 @@ const application = (function () {
     const accumulatorTimeCounter = {
         accumulator: 0
     };
-    const maximumTimeCounter = 5;
+    const maximumTimeCounter = 20;
 
     function init() {
         const buttonStartGame = document.getElementById("button-init-questions");
